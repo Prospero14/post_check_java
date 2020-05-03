@@ -1,7 +1,5 @@
 package post;
 
-import com.sun.mail.imap.protocol.FLAGS;
-
 import javax.mail.*;
 import javax.mail.search.FlagTerm;
 
@@ -9,8 +7,7 @@ import java.util.Properties;
 
 public class Post {
     public static void check(String host, String storeType, String user,
-                             String password)
-    {
+                             String password) {
         try {
 
 
@@ -19,7 +16,7 @@ public class Post {
             properties.put("mail.pop3.host", host);
             properties.put("mail.pop3.port", "995");
             properties.put("mail.pop3.starttls.enable", "true");
-
+            //properties.put("mail.store.protocol", "imaps");
 
             Session emailSession = Session.getInstance(properties,
                     new javax.mail.Authenticator() {
@@ -37,12 +34,15 @@ public class Post {
 
             Folder emailFolder = store.getFolder("INBOX");
             emailFolder.open(Folder.READ_ONLY);
-            //Flags seen = new Flags(Flags.Flag.SEEN);
-            //FlagTerm unSeen = new FlagTerm(seen, true);
 
-            Message[] messages = emailFolder.getMessages();
+            //Message[] messages = emailFolder.getMessages();
+            Flags seen = new Flags(Flags.Flag.RECENT);
+            FlagTerm unseenFlagTerm = new FlagTerm(seen, false);
+
+
+             Message messages[] = emailFolder.search(unseenFlagTerm);
             System.out.println("количество писем - " + messages.length);
-            System.out.println(emailFolder.getUnreadMessageCount());
+
 
             for (int i = 0, n = messages.length; i < n; i++) {
                 Message message = messages[i];
@@ -52,11 +52,8 @@ public class Post {
                 System.out.println("From: " + message.getFrom()[0].toString());
 
             }
-            //123David
-
-
-            emailFolder.close(false);
-            store.close();
+            //emailFolder.close(true);
+            //store.close();
 
         } catch (NoSuchProviderException e) {
             e.printStackTrace();
@@ -70,7 +67,7 @@ public class Post {
     public static void main(String[] args) {
 
         String host = "pop.yandex.ru";
-        String mailStoreType = "pop";
+        String mailStoreType = "pop3s";
         String username = "prosperiansun@yandex.ru";
         String password = "Dd31415926";
 
