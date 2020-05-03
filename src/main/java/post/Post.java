@@ -1,6 +1,9 @@
 package post;
 
+import com.sun.mail.imap.protocol.FLAGS;
+
 import javax.mail.*;
+import javax.mail.search.FlagTerm;
 
 import java.util.Properties;
 
@@ -34,11 +37,12 @@ public class Post {
 
             Folder emailFolder = store.getFolder("INBOX");
             emailFolder.open(Folder.READ_ONLY);
-
+            //Flags seen = new Flags(Flags.Flag.SEEN);
+            //FlagTerm unSeen = new FlagTerm(seen, true);
 
             Message[] messages = emailFolder.getMessages();
             System.out.println("количество писем - " + messages.length);
-            System.out.println("ow");
+            System.out.println(emailFolder.getUnreadMessageCount());
 
             for (int i = 0, n = messages.length; i < n; i++) {
                 Message message = messages[i];
@@ -49,6 +53,7 @@ public class Post {
 
             }
             //123David
+
 
             emailFolder.close(false);
             store.close();
