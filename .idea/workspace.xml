@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2f4c32de-7c43-4747-a85d-d3dafea8365b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/post_check" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aVTSpgvxWLl0JnD7yO7SVzRBWk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Post" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="13" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="post.Post" />
+      <module name="post_check_java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="13" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="post.Post" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f4c32de-7c43-4747-a85d-d3dafea8365b" name="Default Changelist" comment="" />
+      <created>1586819763158</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586819763158</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/post_checking" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="254" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586820363250">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="254" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1586820363250" />
+    <state x="529" y="215" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586820332051">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="529" y="215" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1586820332051" />
+    <state x="516" y="149" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1586822271421">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="516" y="149" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1600.860@0.0.1600.860" timestamp="1586822271421" />
+    <state width="1557" height="264" key="GridCell.Tab.0.bottom" timestamp="1588533022460">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="264" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1588533022460" />
+    <state width="1557" height="264" key="GridCell.Tab.0.center" timestamp="1588533022460">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="264" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1588533022460" />
+    <state width="1557" height="264" key="GridCell.Tab.0.left" timestamp="1588533022459">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="264" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1588533022459" />
+    <state width="1557" height="264" key="GridCell.Tab.0.right" timestamp="1588533022460">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="264" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1588533022460" />
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1588531267148">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1588531267148" />
+    <state width="1557" height="276" key="GridCell.Tab.1.center" timestamp="1588531267148">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1588531267148" />
+    <state width="1557" height="276" key="GridCell.Tab.1.left" timestamp="1588531267148">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1588531267148" />
+    <state width="1557" height="276" key="GridCell.Tab.1.right" timestamp="1588531267148">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1588531267148" />
+    <state x="280" y="5" key="SettingsEditor" timestamp="1588532351376">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="280" y="5" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1588532351376" />
+    <state x="496" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1588528226078">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="496" y="255" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1588528226078" />
+    <state x="609" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588533046043">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="609" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1588533046043" />
+  </component>
+</project>
