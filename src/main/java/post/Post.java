@@ -68,8 +68,8 @@ public class Post {
 
         String host = "pop.yandex.ru";
         String mailStoreType = "pop3s";
-        String username = "prosperiansun@yandex.ru";
-        String password = "Dd31415926";
+        String username = "mail@yandex.ru";
+        String password = "passwrd";
 
         check(host, mailStoreType, username, password);
 
